@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+
+.block {
+    border: 1px solid red;
+    text-align: center;
+    vertical-align: middle;
+}
+.circle {
+    background: darkgoldenrod;;
+    border-radius: 100%;
+    color: white;
+    height: 200px;
+    font-weight: bold;
+    width: 300px;
+    display: table;
+    margin: 20px auto;
+}
+.circle2 {
+    background: white;
+    border-radius: 100%;
+    color: white;
+    height: 200px;
+    font-weight: bold;
+    width: 290px;
+    display: table;
+    margin: 5px auto;
+}
+
+.circle3 {
+    background: darkgoldenrod;;
+    border-radius: 100%;
+    color: white;
+    height: 100px;
+    font-weight: bold;
+    width: 140px;
+    display: table;
+    margin: 20px auto;
+}
+
+.circle4 {
+    background: white;
+    border-radius: 100%;
+    color: white;
+    height: 100px;
+    font-weight: bold;
+    width: 130px;
+    display: table;
+    margin: 5px auto;
+}
+.circle p {
+    vertical-align: middle;
+    display: table-cell;
+}
+
