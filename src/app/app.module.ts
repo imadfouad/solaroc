@@ -1,7 +1,6 @@
 import { AccueileComponent } from './components/accueile/accueile.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { RouterModule , Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -14,6 +13,10 @@ import { ContactComponent } from './components/contact/contact.component';
 import { PanneauxComponent } from './components/panneaux/panneaux.component';
 import { ChauffeComponent } from './components/chauffe/chauffe.component';
 import { PompesComponent } from './components/pompes/pompes.component';
+import { FiltreComponent } from './components/filtre/filtre.component';
+import { EclairageComponent } from './components/eclairage/eclairage.component';
+import { PompageComponent } from './components/pompage/pompage.component';
+import { ChauffageComponent } from './components/chauffage/chauffage.component';
 
 const routes: Routes = [
   {path:  "" , component:AccueileComponent},
@@ -21,7 +24,11 @@ const routes: Routes = [
   {path:  "projets" , component:PanneauxComponent},
   {path:  "chauffe-eaux" , component:ChauffeComponent},
   {path:  "services" , component:PompesComponent},
-  {path:  "contact" , component:ContactComponent}
+  {path:  "contact" , component:ContactComponent},
+  {path:  "filtre" , component:FiltreComponent},
+  {path:  "eclairage" , component:EclairageComponent},
+  {path:  "pompage" , component:PompageComponent},
+  {path:  "chauffage" , component:ChauffageComponent}
   
 ]
 
@@ -38,7 +45,11 @@ const routes: Routes = [
     ContactComponent,
     PanneauxComponent,
     ChauffeComponent,
-    PompesComponent
+    PompesComponent,
+    FiltreComponent,
+    EclairageComponent,
+    PompageComponent,
+    ChauffageComponent
   ],
   imports: [
     BrowserModule,

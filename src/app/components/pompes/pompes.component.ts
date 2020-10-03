@@ -9,6 +9,10 @@ export class PompesComponent implements OnInit {
 
   constructor() { }
 
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+}
+
   ngOnInit(): void {
   }
 
